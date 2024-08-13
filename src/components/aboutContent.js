@@ -12,6 +12,7 @@ export default function Content() {
           level, our platform offers personalized workout plans, real-time
           feedback, and expert guidance to keep you motivated and on track.
         </p>
+        <div className=""></div>
       </div>
       <div className="about-content">
         <h2>Our Mission</h2>
@@ -24,8 +25,8 @@ export default function Content() {
           healthier lives and achieving sustainable fitness results.
         </p>
       </div>
-      <p>
-        Discover the future of fitness with FitPro – where technology meets
+      <p className="sub-content-text">
+        Discover the future of fitness with FitPro -where technology meets
         personalization to empower you on your path to a fitter, stronger, and
         healthier you.
       </p>

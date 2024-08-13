@@ -1,0 +1,25 @@
+.about-content {
+  display: flex;
+  flex-direction: column;
+}
+.about-content p {
+  max-width: 30em;
+}
+.sub-content-text {
+  display: flex;
+  margin:auto;
+  text-align: center;
+  max-width: 60em;
+}
+.ceo {
+  display: flex;
+  margin: 0 auto;
+  max-width: 30em;
+}
+.team-content {
+  display: flex;
+}
+.team-text {
+  text-align: center;
+  max-width: 30em;
+}

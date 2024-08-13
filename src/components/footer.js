@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-divider"></div>
       <img src="" alt="" />
       <ul className="link-list">
-        <h3 className="list-title">Links</h3>
+        <h4 className="list-title">Links</h4>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -19,12 +19,12 @@ export default function Footer() {
         </li>
       </ul>
       <ul className="other-list">
-        <h3 className="list-title">Other</h3>
+        <h4 className="list-title">Other</h4>
         <li>
           <Link to="*">User FAQs</Link>
         </li>
         <li>
-          <Link to="*">Legal</Link>z
+          <Link to="*">Legal</Link>
         </li>
         <li>
           <Link to="*">Privacy Policy</Link>

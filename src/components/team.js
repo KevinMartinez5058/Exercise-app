@@ -4,17 +4,19 @@ export default function Team() {
   return (
     <section className="team">
       <div className="content-title">
+        <div className="line"></div>
         <h2>Meet our team</h2>
+        <div className="line"></div>
       </div>
 
       <div className="ceo">
         <div className="team-img">
-          <img src="" alt="" />
+          <img src="" alt="team image" />
         </div>
         <div className="team-text">
-          <h2>Dr. Sarah Smith</h2>
-          <h3>Founder & CEO</h3>
-          <p>
+          <h3>Dr. Sarah Smith</h3>
+          <h4>Founder & CEO</h4>
+          <p >
             Dr. Sarah Smith is a fitness enthusiast and AI expert with a passion
             for leveraging technology to enhance personal wellness. With a
             background in computer science and sports science, Sarah founded
@@ -27,11 +29,11 @@ export default function Team() {
       <div className="team-content">
         <div className="team-member ">
           <div className="team-img">
-            <img src="" alt="" />
+            <img src="" alt="team image" />
           </div>
           <div className="team-text">
-            <h2>John Doe</h2>
-            <h3>Head of Product Development</h3>
+            <h3>John Doe</h3>
+            <h4>Head of Product Development</h4>
             <p>
               John Doe brings over a decade of experience in software
               engineering and product development to the FitPro team. He is
@@ -44,11 +46,11 @@ export default function Team() {
 
         <div className="team-member ">
           <div className="team-img">
-            <img src="" alt="" />
+            <img src="" alt="team image" />
           </div>
           <div className="team-text">
-            <h2>Emily Brown</h2>
-            <h3>Fitness Coach & Content Specialist</h3>
+            <h3>Emily Brown</h3>
+            <h4>Fitness Coach & Content Specialist</h4>
             <p>
               Emily Brown is a dedicated fitness coach who helps individuals
               achieve their health and wellness goals through personalized
@@ -63,11 +65,11 @@ export default function Team() {
 
         <div className="team-member ">
           <div className="team-img">
-            <img src="" alt="" />
+            <img src="" alt="team image" />
           </div>
           <div className="team-text">
-            <h2>Alex johnson</h2>
-            <h3>Customer support manager</h3>
+            <h3>Alex johnson</h3>
+            <h4>Customer support manager</h4>
             <p>
               Alex Johnson is committed to providing exceptional customer
               service and support to the FitPro community. With a background in

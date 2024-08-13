@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #ff204e;
+  --primary-color-accent: #f51e49;
+  --secondary-color: #a0153e;
+  --secondary-color-accent: #ad1845;
+  --third-color: #00224d;
+  --transition: 0.3s ease-in-out;
+
+  --60px: 3.75rem;
+  --44px: 2.75rem;
+  --35px: 2.1875rem;
+  --20px: 1.25rem;
+  --16px: 1rem;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+.hero-text h1 {
+  text-align: center;
+}
+
+.hero-btn {
+  background-color: var(--primary-color);
+  color: #000;
+  max-width: 7em;
+  min-height: 2em;
+  border: none;
+  border-radius: 10px;
+  font-size: var(--20px);
+  margin: 0 auto;
+}
+.hero-btn:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+}
+.hero-btn :focus {
+  background-color: var(--primary-color-accent);
+}
+.content-img {
+  margin: 0 auto;
+}
+.why-content {
+  display: flex;
+  text-align: center;
+}
+.sub-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.sub-content-text {
+  max-width: 20em;
+}
+.review-text {
+  margin: 0 auto;
+  max-width: 60em;
+  text-align: center;
+}
