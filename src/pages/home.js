@@ -11,7 +11,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <Why />
+      <Why /> {/* Work on this it looks weird in different screens */}
       <Review />
       <Footer />
     </main>

@@ -86,11 +86,26 @@ nav {
   width: 24em;
   min-height: 0.2em;
 }
-footer {
-  display: flex;
-}
 footer h4 {
   color: var(--primary-color);
+  text-decoration: underline;
   margin: 0;
 }
-
+.footer-divider {
+  width: 80em;
+  min-height: 0.2em;
+  background-color: var(--primary-color);
+  margin: auto;
+}
+.list-container {
+  display: flex;
+  max-width: 60em;
+  margin: 0 auto;
+}
+.list {
+  list-style-type: none;
+}
+.review-list {
+  display: flex;
+  margin: auto;
+}
