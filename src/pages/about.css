@@ -7,12 +7,13 @@
 }
 .sub-content-text {
   display: flex;
-  margin:auto;
+  margin: auto;
   text-align: center;
   max-width: 60em;
 }
 .ceo {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   max-width: 30em;
 }
@@ -22,4 +23,13 @@
 .team-text {
   text-align: center;
   max-width: 30em;
+}
+.team-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.team-img {
+  width: 100%;
 }

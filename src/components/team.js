@@ -10,13 +10,11 @@ export default function Team() {
       </div>
 
       <div className="ceo">
-        <div className="team-img">
-          <img src="" alt="team image" />
-        </div>
+        <img className="team-img" src="./profile1.png" alt="team image" />
         <div className="team-text">
           <h3>Dr. Sarah Smith</h3>
           <h4>Founder & CEO</h4>
-          <p >
+          <p>
             Dr. Sarah Smith is a fitness enthusiast and AI expert with a passion
             for leveraging technology to enhance personal wellness. With a
             background in computer science and sports science, Sarah founded
@@ -28,9 +26,7 @@ export default function Team() {
 
       <div className="team-content">
         <div className="team-member ">
-          <div className="team-img">
-            <img src="" alt="team image" />
-          </div>
+          <img className="team-img" src="./profile2.png" alt="team image" />
           <div className="team-text">
             <h3>John Doe</h3>
             <h4>Head of Product Development</h4>
@@ -45,9 +41,7 @@ export default function Team() {
         </div>
 
         <div className="team-member ">
-          <div className="team-img">
-            <img src="" alt="team image" />
-          </div>
+          <img className="team-img" src="./profile4.png" alt="team image" />
           <div className="team-text">
             <h3>Emily Brown</h3>
             <h4>Fitness Coach & Content Specialist</h4>
@@ -64,9 +58,7 @@ export default function Team() {
         </div>
 
         <div className="team-member ">
-          <div className="team-img">
-            <img src="" alt="team image" />
-          </div>
+          <img className="team-img" src="./profile3.png" alt="team image" />
           <div className="team-text">
             <h3>Alex johnson</h3>
             <h4>Customer support manager</h4>
